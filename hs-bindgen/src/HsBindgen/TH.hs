@@ -44,6 +44,9 @@ module HsBindgen.TH (
   , Category.useUnsafeCategory
   , Category.useFunPtrCategory
 
+    -- ** Field naming
+  , Config.FieldNamingStrategy(..)
+
     -- ** Haddocks
   , Haddock.PathStyle(..)
 
